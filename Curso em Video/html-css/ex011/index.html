@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes<br>
+    Ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png">
+        <img src="img/foto-g.png" alt="imagem flexivel" >
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audios mp3.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/ytmp3free.cc_red-hot-chili-peppers-scar-tissue-official-music-video-youtubemp3free.org.mp3" type="audio/mpeg">
+        <source src="midia/ytmp3free.cc_red-hot-chili-peppers-scar-tissue-official-music-video-youtubemp3free.org.ogg" type="audio/ogg">
+        <source src="midia/ytmp3free.cc_red-hot-chili-peppers-scar-tissue-official-music-video-youtubemp3free.org.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p><br>
+            <a href="midia/ytmp3free.cc_red-hot-chili-peppers-scar-tissue-official-music-video-youtubemp3free.org.mp3">
+                Clique aqui para baixar o arquivo MP3
+            </a>
+    </audio>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+Estudo básico de Tipografia
+
+ -- Anatomia do tipo -- 
+# A letra "X" é o ponto de partida para a construção de todas as fontes
+# A importância das Serifa:
+- Serve de auxilio de leitura para os olhos humanos.
+- Existem fontes Serifadas e não Serifadas
+# Fontes podem ser baixadas ou usadas pela web
+# Letras são "glifos"
+# Algumas fontes possuem familia-tipográfica, (variedade de glifos)
+
+ -- Categorias de Fontes --
+# O recomendado é:
+Para textos muito longos em sites, dê preferência para                       fontes "não serifadas" e dê preferência para fontes mais espaçadas.
+# Use cores complementares nas fontes (cor de fundo).
