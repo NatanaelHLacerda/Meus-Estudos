@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Colgroup</title>
+    <style>
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            letter-spacing: 2px;
+            padding-bottom: 5px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(223, 217, 190);
+        }
+
+
+        colgroup .C-nome, .C-profissao {
+            background-color: chocolate;
+        }
+
+        colgroup .C-group {
+            background-color: rgb(238, 221, 156);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Exercício de tabela / Colgroup</h2>
+    <table>
+        <caption>Cadastro</caption>
+
+        <colgroup>        
+            <col class="C-group" span="4">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Carlos</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Joaquim</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Pizzaiolo</td>
+        </tr>
+        <tr>
+            <td>Pedrinho</td>
+            <td>M</td>
+            <td>16</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Giu</td>
+            <td>F</td>
+            <td>57</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Glória</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

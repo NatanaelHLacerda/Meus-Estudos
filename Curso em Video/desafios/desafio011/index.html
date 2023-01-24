@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
     <style>
-        body {
-            background-image: url('espaco.jpg');
+        *{
+            padding: 0px;
+            margin: 0px;
         }
 
-        .imagem {
+        main {
             display: flex;
             justify-content: center;
-            padding-top: 80px;
-            
+            align-items: center;
+            background: url('espaco.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+
         }
 
-        * {
-            margin: 0px;
-            padding: 0px;
+        .imagem img {
+            display: flex;
+            width: 80%;
+            margin: auto;        
         }
     </style>
 </head>
