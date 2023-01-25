@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios - iframe 3</title>
+
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        iframe {
+            border: 2px solid black;
+            width: 95vw;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links para o iframe</h1>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum odio eaque excepturi, sunt provident illo veniam, facere quisquam ullam fugiat repudiandae blanditiis. Tenetur iste, consequatur laboriosam nobis magni sit.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur a et alias obcaecati eveniet modi nisi voluptatem autem assumenda necessitatibus, debitis eaque ea facere delectus quibusdam facilis vero voluptatum repellendus.
+    </p>
+
+    <iframe src="" frameborder="0" name="frame" scrolling="no" srcdoc="<h1>Preencha essa frame com 'coisas'.</h1>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum odio eaque excepturi, sunt provident illo veniam, facere quisquam ullam fugiat repudiandae blanditiis. Tenetur iste, consequatur laboriosam nobis magni sit.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur a et alias obcaecati eveniet modi nisi voluptatem autem assumenda necessitatibus, debitis eaque ea facere delectus quibusdam facilis vero voluptatum repellendus.</p>
+        <img src='img/dog.jpg'>">
+        <p>
+            Seu navegador não suporta o iframe
+        </p>
+    </iframe>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum harum odio eaque excepturi, sunt provident illo veniam, facere quisquam ullam fugiat repudiandae blanditiis. Tenetur iste, consequatur laboriosam nobis magni sit.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur a et alias obcaecati eveniet modi nisi voluptatem autem assumenda necessitatibus, debitis eaque ea facere delectus quibusdam facilis vero voluptatum repellendus.
+    </p>
+</body>
+</html>
